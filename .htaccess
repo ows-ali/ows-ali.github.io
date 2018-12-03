@@ -1,4 +1,11 @@
 
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ows-ali.github.io [NC]
+RewriteRule ^(.*)$ https://ows-ali.github.io/$1 [R=301,L]
+</IfModule>
+
+
 RewriteCond %{THE_REQUEST} ^.*/index\.html 
 RewriteRule ^(.*)index.html$ /$1 [R=301,L] 
 
