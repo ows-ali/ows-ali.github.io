@@ -1,4 +1,4 @@
 
-RewriteCond %{THE_REQUEST} ^.*/index.html 
+RewriteCond %{THE_REQUEST} ^.*/index\.html 
 RewriteRule ^(.*)index.html$ /$1 [R=301,L] 
 
