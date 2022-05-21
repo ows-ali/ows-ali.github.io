@@ -68,7 +68,7 @@
 
     <!-- End header -->
 
-    <div id="lead">
+    <div id="lead" style="z-index: -1;">
         <div id="lead-content">
             <h1>Owais Ali</h1>
             <h2>Software Engineer</h2>
@@ -103,14 +103,24 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <div id="experience" class="background-alt" >
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="February 2019 – Present">
+            <div data-date="2021 – Present">
+                <h3>Ricult</h3>
+                <h4>Remote Full Stack Engineer</h4>
+                <p>
+                    Working as a Mobile Developer. Ricult is an AgriTech startup utilizing modern techniques like crop scan which helps increase productivity of farmers exponentially and also facilitates financing between farmers and banks or mills
+                    <br> 
+                    The frontend is built on React Native and Ionic and backend is on Python
+
+                </p>
+            </div>
+            <div data-date="February 2019 – Jan 2021">
                 <h3>Bank Alfalah Limited</h3>
                 <h4>Officer</h4>
                 <p>
-                    Working as a Mobile Developer. Developing account opening applications using following technologies, react native, redux, realm, native modules, async storage, redux-persist, react navigation, tcomb form native, native base, axios/fetch etc. 
+                    Worked on backend and frontend applications, web as well as mobile. Developing account opening applications using following technologies, react native, redux, realm, native modules, async storage, redux-persist, react navigation, tcomb form native, native base, axios/fetch etc. 
                     <br> 
                     Also, working on IBM BPM to building processes for automation of business processes.
                 </p>
@@ -130,12 +140,19 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>Lahore University of Management Sciences, Lahore</h3>
+            <h3>Lahore University of Management Sciences (LUMS), Lahore</h3>
             <span class="education-date">Aug 2013 - May 2017</span>
             <h4>Bachelor of Science in Computer Science</h4>
             <p>
             <!--                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. -->        
             </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Institue of Business Administration (IBA), Karachi</h3>
+            <span class="education-date">Oct 2018 - Feb 2019</span>
+            <h4>Diploma IT Entrepreneurship</h4>
         </div>
         <!-- End .education-block -->
 
@@ -182,6 +199,44 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                <div class="project no-image shadow-large">
+                    <!-- <div class="project-image">
+                        <img src="images/colorbox.png" height="300" width="300" />
+                    </div> -->
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Azfamtech: A mobile application for ed-tech institute </h3>
+                        <p>
+                            Helped the institue solving their problem by automating their manual and lengthy work. Using React Native created both Android and iOS apps. Students can sign in using their registered number via OTP and track their attendance and grades. Management can send important announcements for example for job openings and/or upcoming events received via push notifications, earlier sent via numerous whatsapp groups
+                        </p>
+                        <p>Technologies: React Native with Redux toolkit, React hooks, Firebase push notificaitons, Firebase phone authentication using OTP. </p>
+                        <!-- <a href="https://github.com/ows-ali/socialape" target="_blank">View Project</a>
+                        or
+                        <a href="https://socialape-93f08.firebaseapp.com" target="_blank">Live Demo</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project no-image shadow-large">
+                    <!-- <div class="project-image">
+                        <img src="images/colorbox.png" height="300" width="300" />
+                    </div> -->
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>SocialApe: A mini social media application where apes scream, inspired from Twitter</h3>
+                        <p>
+                            Users can signup and share their screams visible to other users who like or comment on their screams as well
+                        </p>
+                        <p>Technologies: Frontend on React with Redux deployed on Firebase. Node js backend with Authentication and Authorization deployed as Firebase functions also utilized Firestore, Firebase storage and Firebase triggers  </p>
+                        <a href="https://github.com/ows-ali/socialape" target="_blank">View Project</a>
+                        or
+                        <a href="https://socialape-93f08.firebaseapp.com" target="_blank">Live Demo</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/colorbox.png" height="300" width="300" />
@@ -270,17 +325,24 @@
         <ul>
             <li>React</li>
             <li>React Native</li>
+            <li>Redux</li>
+            <li>Next js (SSR applications)</li>
+            <li>Solidity</li>
+            <li>Ganache</li>
+            <li>Web3.js</li>
+            <li>Truffle</li>
             <li>Realm Database</li>
-            <li>PHP Yii 2 (MVC, Gii, RBAC, AJAX, pjax,) plus JS, Jquery and Bootstrap</li>
-			<li>Node.js (Async handling via Promises/Callbacks/AsyncAwait, middlewares, rest APIs)</li>
-			<li>Firebase (Authentication, Firestore, Functions, Triggers)</li>
-            <li>MongoDB</li>
-            <li>MYSQL/MariaDB (Triggers, Functions, Stored Procedure, Cursors, Events, Joins, Relationships etc)</li>
-			<li>PHP</li>
-            <li>REST APIs</li>
-            <li>Git/Github/Bitbucket</li>			
+            <li>Git</li>			
             <li>Python</li>
             <li>Excel: VBA, Macros etc</li>
+            <li>PHP Yii 2 (MVC, Gii, RBAC, AJAX, pjax)</li>
+			<li>Jquery</li>
+			<li>Bootstrap</li>
+            <li>Node.js (REST APIs)</li>
+			<li>Firebase (Authentication with email and phone number)</li>
+            <li> Firebase Functions, Triggers</li>
+            <li>MYSQL/MariaDB </li>
+            <li>MongoDB</li>
         </ul>
     </div>
     <!-- End #skills -->
